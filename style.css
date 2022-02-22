@@ -39,7 +39,7 @@ background-color: navy;
     }
 }
 /* 4 */
-@media (min-width: 900px) or (max-height: 500px) {
+@media (min-width: 900px), (min-height: 500px) {
     #two{
         border-top: solid 10px gray;
     }
@@ -63,7 +63,7 @@ background-color: navy;
 /* BONUS */
 /* B1 */
 @media print {
-    body{
+    h1{
     text-transform: uppercase;
     color: green
     }
